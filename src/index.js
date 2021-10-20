@@ -4,7 +4,6 @@ import API from "./js/fetchCountries";
 import debounce from "lodash.debounce";
 import Notiflix from "notiflix";
 
-const DEBOUNCE_DELAY = 300;
 let searchQuery = "";
 
 const refs = {
