@@ -1,6 +1,6 @@
-import countriesTpl from "./hbs/countries.hbs";
-import listCountriesTpl from "./hbs/list-countries.hbs";
-import API from "./js/fetchCountries";
+import countriesTpl from "../hbs/countries.hbs";
+import listCountriesTpl from "../hbs/list-countries.hbs";
+import API from "./fetchCountries";
 import debounce from "lodash.debounce";
 import Notiflix from "notiflix";
 
